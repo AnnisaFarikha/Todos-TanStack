@@ -28,6 +28,11 @@ pnpm run dev
 http://localhost:8000
 ```
 
+## 🌐 Frontend URL
+```bash
+http://localhost:5173
+```
+
 📖 Notes
 - This project focuses on frontend implementation only
 - API behavior follows the provided API mock
