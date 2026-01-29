@@ -1,16 +1,34 @@
-# React + Vite
+# Simple Todos TanStack Query – Assignment 4 Devscale
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend application built with **React + TanStack Query** using **API Mock Devscale**.
 
-Currently, two official plugins are available:
+## 📌 Features
+- Register
+- Login
+- Profile
+- Todos (Get, Add, Delete)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React (Vite)
+- TanStack Query
+- JavaScript
+- API Mock Devscale
 
-## React Compiler
+## 🚀 How to Run
+1. Install dependencies
+```bash
+pnpm install
+```
+2. Run frontend
+```bash
+pnpm run dev
+```
+3. Make sure API mock Devscale is running on:
+```bash
+[pnpm install](http://localhost:8000)
+```
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📖 Notes
+- This project focuses on frontend implementation only
+- API behavior follows the provided API mock
+- Error responses (e.g. email already exists) are handled on the frontend side
