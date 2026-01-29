@@ -25,7 +25,7 @@ pnpm run dev
 ```
 3. Make sure API mock Devscale is running on:
 ```bash
-[pnpm install](http://localhost:8000)
+http://localhost:8000
 ```
 
 📖 Notes
