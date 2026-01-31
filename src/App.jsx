@@ -5,8 +5,9 @@ import Todos from "./pages/Todos";
 
 function App() {
   return (
-    <div style={{ padding: 20 }}>
-      <h2>Devscale Simple Todos – TanStack Query</h2>
+    <div className="container">
+      <h2 className="title">TanStack: Simple Todos App</h2>
+      <p className="subtitle">@nisafarikha__</p>
 
       <Register />
       <hr />

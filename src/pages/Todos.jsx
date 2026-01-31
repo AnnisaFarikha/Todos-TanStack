@@ -85,11 +85,11 @@ export default function Todos() {
       </form>
 
       {/* LIST TODO */}
-      <ul>
+      <ul style={{ padding: 0 }}>
         {data.map((todo) => (
-          <li key={todo.id}>
+          <li key={todo.id} className="todo-item">
             {todo.title}
-            <button onClick={() => deleteTodo.mutate(todo.id)}>❌</button>
+            <button onClick={() => deleteTodo.mutate(todo.id)}>Delete</button>
           </li>
         ))}
       </ul>
